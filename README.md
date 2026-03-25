@@ -104,12 +104,6 @@ That's it. The widget fetches evidence data from the GutCited API and renders it
 <script src="https://cdn.jsdelivr.net/npm/gutcited-embed@1/dist/embed.min.js"></script>
 ```
 
-### R2 CDN (gutcited.com hosted)
-
-```html
-<script src="https://cdn.gutcited.com/embed.min.js"></script>
-```
-
 ### npm (for bundlers)
 
 ```bash
