@@ -1,0 +1,31 @@
+# GutCited Embed Widget
+
+> Embeddable GutCited widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/gutcited-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://gutcited.com
+- Widget docs: https://widget.gutcited.com
+- npm: https://www.npmjs.com/package/gutcited-embed
+- GitHub: https://github.com/citedhealth/gutcited-embed
+- API: https://gutcited.com/developers/
+
+## CITED Health Widget Family
+
+- [CitedHealth Widget](https://widget.citedhealth.com)
+- [HairCited Widget](https://widget.haircited.com)
+- [SleepCited Widget](https://widget.sleepcited.com)
+- [ImmuneCited Widget](https://widget.immunecited.com)
+- [BrainCited Widget](https://widget.braincited.com)
+- [WeightCited Widget](https://widget.weightcited.com)
+- [HeartCited Widget](https://widget.heartcited.com)
+- [SkinCited Widget](https://widget.skincited.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
