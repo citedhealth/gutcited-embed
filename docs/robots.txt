@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# GutCited Embed Widget
+# Main site: https://gutcited.com
+# Widget docs: https://widget.gutcited.com
+# npm: https://www.npmjs.com/package/gutcited-embed
