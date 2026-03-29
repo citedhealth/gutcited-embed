@@ -1,21 +1,51 @@
 # GutCited Embed Widget
 
-> Embeddable GutCited widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Evidence-based health research. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/gutcited-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/gutcited-embed@1/dist/embed.min.js"></script>
+<div data-gutcited="evidence" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- evidence: `data-gutcited="evidence"`
+- ingredient: `data-gutcited="ingredient"`
+- condition: `data-gutcited="condition"`
+- paper: `data-gutcited="paper"`
+- figure: `data-gutcited="figure"`
+- search: `data-gutcited="search"`
+- safety: `data-gutcited="safety"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-gutcited="evidence" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/gutcited-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://gutcited.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://gutcited.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://gutcited.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://gutcited.com
 - Widget docs: https://widget.gutcited.com
-- npm: https://www.npmjs.com/package/gutcited-embed
-- GitHub: https://github.com/citedhealth/gutcited-embed
-- API: https://gutcited.com/developers/
+- API documentation: https://gutcited.com/developers/
+- npm package: https://www.npmjs.com/package/gutcited-embed
+- GitHub: https://github.com/fyipedia/gutcited-embed
 
-## CITED Health Widget Family
+## CITED Health Widget Network
 
 - [CitedHealth Widget](https://widget.citedhealth.com)
 - [HairCited Widget](https://widget.haircited.com)
